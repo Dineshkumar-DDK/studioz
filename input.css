@@ -5,7 +5,8 @@
   --breakpoint-lg: 976px;
   --breakpoint-xl: 1440px;
   --font-sans:"Josefin Sans",sans-serif;
-  --font-alata:"Alata"
+  --font-alata:"Alata";
+  --tracking-widest:.3em;
 }
 
 @layer{
@@ -13,6 +14,10 @@
     background-image:url('../images/desktop/image-hero.jpg');
     background-repeat:no-repeat;
     background-size:cover;
+  }
+
+  .btn{
+    @apply px-6 py-2 my-0  hover:bg-black hover:text-white border-2 font-alata uppercase tracking-widest transition duration-200;
   }
 
   @media(max-width:576px){
