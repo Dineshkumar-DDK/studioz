@@ -20,6 +20,22 @@
     @apply px-6 py-2 my-0  hover:bg-black hover:text-white border-2 font-alata uppercase tracking-widest transition duration-200;
   }
 
+  .item-container{
+    @apply flex flex-col space-y-6 justify-between text-2xl uppercase text-white font-alata md:flex-row md:space-x-8 md:space-y-0 w-full;
+  }
+
+  .item{
+    @apply group relative overflow-hidden md:w-1/4 mx-2;
+  }
+  
+  .item-gradient{
+    @apply absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-transparent to-gray-900 group-hover:from-gray-50 group-hover:to-white group-hover:opacity-70;
+  }
+
+  .item-text{
+    @apply absolute bottom-4 md:bottom-8 duration-200 group-hover:scale-110 group-hover:text-black px-6 md:px-10 w-52 uppercase
+  }
+
   @media(max-width:576px){
     #hero{
       background-image:url('../images/mobile/image-hero.jpg');
