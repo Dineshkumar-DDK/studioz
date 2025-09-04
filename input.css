@@ -32,7 +32,7 @@
   }
 
   .item {
-    @apply group relative overflow-hidden md:w-1/4 mx-2;
+    @apply relative overflow-hidden md:w-1/4 mx-2;
   }
 
   .item-gradient {

@@ -77,9 +77,10 @@
                 <button class="btn hidden md:block">See all</button>
             </div>
             <!-- items container  -->
-            <div class="item-container">
+            <div
+                class="flex flex-col space-y-6 justify-between text-2xl uppercase text-white font-alata md:flex-row md:space-x-8 md:space-y-0 w-full">
                 <!-- item -1 -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-deep-earth.jpg" alt="image of the earth " class="w-full md:hidden">
                     <!-- desktop image  -->
@@ -98,7 +99,7 @@
                 </div>
 
                 <!-- item - 2  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-night-arcade.jpg" alt=" image-night-arcade "
                         class="w-full md:hidden">
@@ -117,7 +118,7 @@
 
                 </div>
                 <!-- item - 3  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-soccer-team.jpg" alt=" image-soccer-team.jpg "
                         class="w-full md:hidden">
@@ -136,7 +137,7 @@
 
                 </div>
                 <!-- item - 4  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-grid.jpg" alt="/image-grid.jpg " class="w-full md:hidden">
                     <!-- desktop image  -->
@@ -157,9 +158,10 @@
             </div>
 
             <!-- items container  -->
-            <div class="item-container mt-10">
+            <div
+                class="flex flex-col space-y-6 justify-between text-2xl uppercase text-white font-alata md:flex-row md:space-x-8 md:space-y-0 w-full mt-10">
                 <!-- item -1 -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-from-above.jpg" alt="from above image " class="w-full md:hidden">
                     <!-- desktop image  -->
@@ -178,7 +180,7 @@
                 </div>
 
                 <!-- item - 2  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-pocket-borealis.jpg" alt=" image-pocket-borealis "
                         class="w-full md:hidden">
@@ -197,7 +199,7 @@
 
                 </div>
                 <!-- item - 3  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-curiosity.jpg" alt="image-curiosity.jpg " class="w-full md:hidden">
                     <!-- desktop image  -->
@@ -215,7 +217,7 @@
 
                 </div>
                 <!-- item - 4  -->
-                <div class="item">
+                <div class="relative overflow-hidden md:w-1/4 mx-2 group">
                     <!-- mobile image  -->
                     <img src="/images/mobile/image-fisheye.jpg" alt="image-fisheye.jpg " class="w-full md:hidden">
                     <!-- desktop image  -->
@@ -249,16 +251,73 @@
         <footer class="bg-black">
             <div class="container max-w-6xl py-10 mx-auto">
                 <div
-                    class="flex flex-col space-y-6 md:space-y-0 md:flex-row md:justify-between items-center md:items-start mb-8">
+                    class="flex flex-col space-y-6 items-center md:flex-row md:space-y-0 md:justify-between md:items-start mb-8">
+                    <!-- menu items  -->
                     <div class="flex flex-col items-center space-y-8 md:space-y-4 md:items-start">
                         <div class="h-8">
                             <img src="/images/logo.svg" alt="logo" class="md:ml-3 w-44">
                         </div>
-                        <div class="flex flex-col space-y-4 md:flex-row md:space-y-0 font-bold text-white md:ml-3 md:space-x-6">
-                            
+                        <div
+                            class="flex flex-col space-y-4 md:flex-row md:space-y-0 font-bold text-white md:ml-3 md:space-x-6">
+                            <div class="h-10 group">
+                                <a href="#">About</a>
+                                <div href="" class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
+                            <div class="h-10 group">
+                                <a href="#">Careers</a>
+                                <div href="" class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
+                            <div class="h-10 group">
+                                <a href="#">Events</a>
+                                <div href="" class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
+                            <div class="h-10 group">
+                                <a href="#">Products</a>
+                                <div href="" class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
+                            <div class="h-10 group">
+                                <a href="#">Support</a>
+                                <div href="" class="mx-2 group-hover:border-b group-hover:border-blue-50"></div>
+                            </div>
                         </div>
 
                     </div>
+                    <!-- social media icons -->
+
+                    <div class="flex flex-col space-y-4 items-start justify-between text-gray-500">
+
+                        <div class="flex space-x-4 items-center justify-center mx-auto md:justify-end md:mx-0">
+                            <div class="h-8 group">
+                                <a href="#">
+                                    <img src="/images/icon-facebook.svg" alt="facebook icon" class="h-6">
+                                </a>
+                            </div>
+
+                            <div class="h-8 group">
+                                <a href="#">
+                                    <img src="/images/icon-instagram.svg" alt="instaicon" class="h-6">
+                                </a>
+                            </div>
+
+                            <div class="h-8 group">
+                                <a href="#">
+                                    <img src="/images/icon-pinterest.svg" alt="pinterest icon" class="h-6">
+                                </a>
+                            </div>
+
+                            <div class="h-8 group">
+                                <a href="#">
+                                    <img src="/images/icon-twitter.svg" alt="pinterest icon" class="h-6">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class=font-bold">
+                            &copy; 2025 Loopstudios. All rights reserved.
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
         </footer>
