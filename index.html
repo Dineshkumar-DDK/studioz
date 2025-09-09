@@ -41,10 +41,24 @@
                         <div class="group-hover:border-b group-hover:border-blue-50 mx-2"></div>
                     </div>
                 </div>
-                <!-- @to do hamburger -->
+                <!-- Hamburger menu items -->
+                <div class="md:hidden">
+                    <button id="menu-btn" type="button" class="md:hidden focus:outline-none block z-40 hamburger">
+                        <span class="hamburger-top"></span>
+                        <span class="hamburger-middle"></span>
+                        <span class="hamburger-bottom"></span>
+                    </button>
+                </div>
             </nav>
-            <!-- @todo menu items -->
-
+            <div id="menu-items" class="hidden flex-col self-end absolute top-0 bottom-0 left-0 space-y-3 w-full min-h-screen
+            bg-gradient-to-t from-black to-gray-700 text-white py-13 pb-0 px-6 text-xl uppercase font-alata
+            ">
+                <a href="#" class="hover:text-pink-500">About</a>
+                <a href="#" class="hover:text-pink-500">Careers</a>
+                <a href="#" class="hover:text-pink-500">Events</a>
+                <a href="#" class="hover:text-pink-500">Products</a>
+                <a href="#" class="hover:text-pink-500">Support</a>
+            </div>
             <div
                 class="max-w-lg text-4xl md:text-6xl uppercase text-white font-sans mt-32 mb-32 md:mx-0 md:m-32 p-4 md:p-10 border-2">
                 Impressive Experiences That Deliver</div>
@@ -247,6 +261,7 @@
 
         </div>
     </section>
+
     <section id="contact">
         <footer class="bg-black">
             <div class="container max-w-6xl py-10 mx-auto">
@@ -322,6 +337,8 @@
             </div>
         </footer>
     </section>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
